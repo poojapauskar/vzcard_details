@@ -1,0 +1,29 @@
+@import url('fonts.css');
+h3{
+	color:#003D73;
+	font-size: 40px;
+	text-align: center;
+	font-family: Roboto-Regular;
+}
+
+h1{
+	text-align: center;
+	font-family: Roboto-Regular;
+}
+
+#user_count{
+	color:white;
+	font-size: 200px;
+}
+#ticket_count{
+	color:white;
+	font-size: 50px;
+}
+#conn_count{
+	color:white;
+	font-size: 50px;
+}
+#img_count{
+	color:white;
+	font-size: 50px;
+}			
