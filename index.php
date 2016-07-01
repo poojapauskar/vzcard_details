@@ -1,5 +1,5 @@
 <?php
-$url_check = 'http://vzcards-api.herokuapp.com/vzcard_details/?access_token=jUUMHSnuGys5nr6qr8XsNEx6rbUyNu';
+$url_check = 'http://staging-vzcards-api.herokuapp.com/vzcard_details/?access_token=gWgLsmgEafve3TEUewVf26rh9tuq69';
 $options_check = array(
   'http' => array(
     /*'header'  => array(
