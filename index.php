@@ -35,12 +35,12 @@ $arr_check = json_decode($output_check,true);
 <div class="container">
 
 	<div class="row" style="height:15%;text-align:center;margin-top:5%">
-			<img id="" style="margin-left:16%" src="vz_title.png"></img>
+			<img id="img1" src="vz_title.png"></img>
 	</div>
 
 	<div class="row">
 		<div class="col-xs-8">
-			<h3>Users Registered</h3>
+			<h3 id="sub4">Users Registered</h3>
 			<div class="row">
 				<h1 id="user_count"><?php echo $arr_check[0]['valid_users_count']; ?></h1>
 			</div>
@@ -49,21 +49,21 @@ $arr_check = json_decode($output_check,true);
 		<div class="col-xs-4">
 			
 			<div class="row" style="height:20%">
-				<h3>Total Tickets</h3>
+				<h3 id="sub1">Total Tickets</h3>
 				<div class="row">
 					<h1 id="ticket_count"><?php echo $arr_check[0]['number_of_posts']; ?></h1>
 				</div>
 			</div>
 
 			<div class="row" style="height:20%">
-				<h3>Total Connections</h3>
+				<h3 id="sub2">Total Connections</h3>
 				<div class="row">
 					<h1 id="conn_count"><?php echo $arr_check[0]['connections']; ?></h1>
 				</div>
 			</div>
 
 			<div class="row" style="height:20%">
-				<h3>Images Uploaded</h3>
+				<h3 id="sub3">Images Uploaded</h3>
 				<div class="row">
 					<h1 id="img_count"><?php echo $arr_check[0]['images_uploaded']; ?></h1>
 				</div>

@@ -26,4 +26,58 @@ h1{
 #img_count{
 	color:white;
 	font-size: 50px;
+}
+#img1{
+	margin-left: 16%;
 }			
+
+
+
+@media (max-width:700px) { 
+		#img1{
+			-webkit-transform: scale(0.5); /* Safari and Chrome */
+        	-moz-transform: scale(0.5); /* Firefox */
+        	-ms-transform: scale(0.5); /* IE 9 */
+        	-o-transform: scale(0.5); /* Opera */
+        	transform: scale(0.5);
+        	margin-left: 5%;
+			margin-top: 3%;
+		}
+
+
+		h3{
+			color:#003D73;
+			font-size: 20px;
+			text-align: center;
+			font-family: Roboto-Regular;
+		}
+		#user_count{
+			color:white;
+			font-size: 50px;
+			margin-left: -10%;
+
+		}
+		#sub4{
+			margin-left:-10%; 
+		}
+		#ticket_count{
+			color:white;
+			font-size: 25px;
+			margin-left: -70%;
+		}
+		#conn_count{
+			color:white;
+			font-size: 25px;
+			margin-left: -70%;
+		}
+		#img_count{
+			color:white;
+			font-size: 25px;
+			margin-left: -70%;
+		}
+		
+		#sub1,#sub2,#sub3{
+			margin-left: -70%;
+		}		
+
+}
